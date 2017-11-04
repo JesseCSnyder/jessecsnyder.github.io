@@ -6,16 +6,6 @@
 }
 
 a {
-	margin-right: 20px;
-}
-
-header {
-	grid-row: 1/2;
-	grid-column: 1/-1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
 }
 
 footer {
@@ -23,6 +13,17 @@ footer {
 	grid-column: 1/-1;
 	display: flex;
 	justify-content: center;
+}
+
+header {
+	grid-row: 1/2;
+	grid-column: 1/-1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	grid-gap: 40px;
 }
 
 h1 {
@@ -46,13 +47,11 @@ h3 {
 }
 
 h4 {
-	display:flex;
-	align-items: center;
-	justify-content: center;
+	display: flex;
+
 }
 
 h5 {
-	margin-right: 20px;
 	display: flex;
 	align-items: center;
 }
@@ -86,7 +85,7 @@ nav {
 
 .container {
 	display: grid;
-	grid-template-rows: 40px 80% 20%;
+	grid-template-rows: 80px 80% 20%;
 	grid-template-columns: 2fr 8fr;
 }
 
@@ -105,7 +104,6 @@ nav {
 
 .projects {
 	grid-column: 1/-1;
-	
 }
 
 .skills {
@@ -116,9 +114,6 @@ nav {
 
 .subProjects {
 	display: flex;
-	flex-direction: column;
-	align-content: center;
-	justify-content: center;
 }
 
 .subSkills {
