@@ -1,3 +1,12 @@
+a {
+	text-decoration: none;
+	font-size: large;
+	font-weight: bold;
+	color: black;
+	background-color: gray;
+	border: 1px solid black
+}
+
 body {
 	background-color: gray;
 }
@@ -19,6 +28,7 @@ h1 {
 	font-size: 300%;
 	background-image: url("../images/background.jpg");
 	border: 1px solid black;
+	color: white;
 }
 
 h2 {
@@ -90,10 +100,19 @@ p {
 
 }
 
+#built__with {
+	background-color: gray;
+}
+
 #follow__me {
 	font-size: x-large;
 	font-weight: bold;
 	color: black;
 	background-color: gray;
 	margin-right: 15px;
+}
+
+#reviews__project {
+
+
 }

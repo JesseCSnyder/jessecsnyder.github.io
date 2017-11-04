@@ -105,12 +105,20 @@ nav {
 
 .projects {
 	grid-column: 1/-1;
+	
 }
 
 .skills {
 	grid-column: 1/-1;
 	display: flex;
 	flex-direction: column;
+}
+
+.subProjects {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
 }
 
 .subSkills {
