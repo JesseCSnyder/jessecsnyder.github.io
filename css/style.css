@@ -19,16 +19,6 @@ footer {
 	color: lightgray;
 }
 
-header {
-	background-color: black;
-	font-size: large;
-	color: lightgray;
-	border-style: inset;
-	border-radius: 12px;
-	border-color: gray;
-	margin: 10px;
-}
-
 h1 {
 	font-family: "georgia";
 	font-weight: bold;
@@ -49,6 +39,16 @@ h3 {
 
 h4 {
 	color: lightgray;
+}
+
+header {
+	background-color: black;
+	font-size: large;
+	color: lightgray;
+	border-style: inset;
+	border-radius: 12px;
+	border-color: gray;
+	margin: 10px;
 }
 
 li {
@@ -163,6 +163,7 @@ p {
 	color: lightgray;
 	margin-left: 60px;
 }
+
 #subSubProject2 {
 	background-color: black;
 	color: lightgray;
