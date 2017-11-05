@@ -23,6 +23,10 @@ header {
 	background-color: black;
 	font-size: large;
 	color: lightgray;
+	border-style: inset;
+	border-radius: 12px;
+	border-color: gray;
+	margin: 10px;
 }
 
 h1 {
@@ -31,6 +35,10 @@ h1 {
 	font-size: 400%;
 	background-color: black;
 	color: lightgray;
+	border-style: inset;
+	border-radius: 12px;
+	border-color: gray;
+	margin: 10px;
 }
 
 h3 {
@@ -51,6 +59,13 @@ li {
 	background-color: black;
 }
 
+nav {
+	border-style: inset;
+	border-radius: 12px;
+	border-color: gray;
+	margin: 10px;
+}
+
 p {
 	font-size: x-large;
 	display: flex;
@@ -61,6 +76,20 @@ p {
 .bio {
 	background-color: black;
 	padding: 15px;
+}
+
+.bio__border {
+	border-style: inset;
+	border-radius: 12px;
+	border-color: gray;
+	margin: 10px;
+}
+
+.bottom__border {
+	border-style: inset;
+	border-radius: 12px;
+	border-color: gray;
+	margin: 10px;
 }
 
 .contact__info {
@@ -77,14 +106,26 @@ p {
 
 .photo {
 	background-color: black;
+	border-style: inset;
+	border-radius: 12px;
+	border-color: gray;
+	margin-top: 30px;
+	margin: 10px;
 }
 
 .projects {
 	background-color: black;
+	border-style: inset;
+	border-radius: 12px;
+	border-color: gray;
+	margin: 10px;
 }
 
 .skills {
-	border: 1px solid black;
+	border-style: inset;
+	border-radius: 12px;
+	border-color: gray;
+	margin: 10px;
 }
 
 .subProjects {
@@ -96,6 +137,13 @@ p {
 	font-weight: bold;
 	color: lightgray;
 	background-color: black;
+}
+
+#about__me {
+	border-style: inset;
+	border-radius: 12px;
+	border-color: gray;
+	margin: 10px;
 }
 
 #built__with {
