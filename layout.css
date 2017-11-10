@@ -1,0 +1,98 @@
+
+.bio__border {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 25%;
+}
+
+.bio {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.container {
+	display: grid;
+	grid-template-rows: auto, auto, auto, auto, auto, auto;
+}
+
+.projects {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 25%;
+	margin-top: 700px;
+
+}
+
+.skills {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.subProjects {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.subSkills {
+	display: flex;
+	justify-content: space-around;
+	align-items: space-around;
+margin-top: 20px;
+}
+
+a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+article {
+	
+}
+
+
+h3 {
+	
+}
+
+h4 {
+	display: flex;
+}
+
+h5 {
+	margin-bottom: 90px;
+}
+
+footer {
+	
+	display: flex;
+	justify-content: center;
+}
+
+header {
+	grid-row: 1/2;
+
+
+
+}
+
+nav {
+	
+	
+	
+}
+ul {
+	display: flex;
+	justify-content: space-around; 
+}
+
+#follow__me {
+	display: flex;
+	justify-content: center;
+}

@@ -1,0 +1,74 @@
+.contact__info {
+	color: lightgray;
+	
+	font-size: x-large;
+}
+
+.links {
+	
+	font-size: x-large;
+	color: lightgray;
+}
+
+.projects {
+
+}
+
+.subSkills {
+	color: lightgray;
+	font-size: x-large;
+font-weight: bold;
+}
+
+a {
+	color: lightgray;
+}
+
+a:hover {
+	color:darkgray;
+}
+
+body {
+	background-image: url(./images/moonscape.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+footer {
+	background-color: black;
+	color: lightgray;
+	border-style: inset;
+	border-radius: 12px;
+	border-color: gray;
+margin: 10px;
+}
+
+h3 {
+	color: lightgray;
+}
+
+h4 {
+	border-style: inset;
+	border-radius: 12px;
+	border-color: gray;
+	margin: 10px;
+}
+
+header {
+	border-style: inset;
+	border-radius: 12px;
+	border-color: gray;
+	margin: 10px;
+}
+
+
+li {
+	
+}
+
+p {
+	color: lightgray;
+}
+ul {
+
+}
