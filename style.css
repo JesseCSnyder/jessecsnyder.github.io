@@ -14,6 +14,15 @@
 
 }
 
+#skill__list {
+	     list-style-position: inside;
+	     padding: .5rem;
+
+}
+
+#skill__list > li {
+	border: none;
+}
 .subSkills {
 	color: lightgray;
 	font-size: x-large;
@@ -29,9 +38,9 @@ a:hover {
 }
 
 body {
-	background-image: url(./images/moonscape.jpg);
+	background-color: black;
 	background-attachment: fixed;
-	background-size: cover;
+
 }
 
 footer {
@@ -40,35 +49,65 @@ footer {
 	border-style: inset;
 	border-radius: 12px;
 	border-color: gray;
-margin: 10px;
+
 }
 
 h3 {
 	color: lightgray;
 }
 
-h4 {
-	border-style: inset;
-	border-radius: 12px;
-	border-color: gray;
-	margin: 10px;
-}
-
-header {
-	border-style: inset;
-	border-radius: 12px;
-	border-color: gray;
-	margin: 10px;
-}
 
 
 li {
+	border-style: inset;
+	border-radius: 12px;
+	border-color: gray;
 	
 }
 
 p {
 	color: lightgray;
 }
-ul {
+
+
+@media (min-width: 768px) {
+
+
+	body {
+		background-image: url(./images/moonscape.jpg);
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	footer {
+		background-color: black;
+		color: lightgray;
+		border-style: inset;
+		border-radius: 12px;
+		border-color: gray;
+
+	}
+
+	header {
+		display: flex;
+		border-style: inset;
+		border-radius: 12px;
+		border-color: gray;
+		margin-bottom: 65vh;
+		margin-top: 7.5vh;
+	}
+	li {
+		border: none;
+		
+	}
+
+	.links {
+	}
+
+	.bio > p {
+		background-color: black;
+		opacity: .5;
+	}
 
 }
+
